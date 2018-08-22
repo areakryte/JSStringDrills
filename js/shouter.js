@@ -1,5 +1,6 @@
 function shouter(whatToShout) {
   // your code here
+  console.log(String(whatToShout).toUpperCase() + '!!!');
 }
 
 

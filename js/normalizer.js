@@ -1,5 +1,6 @@
 function textNormalizer(text) {
   // your code here
+  console.log(String(text.trim()).toLowerCase());
 }
 
 

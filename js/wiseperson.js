@@ -1,5 +1,7 @@
 function wisePerson(wiseType, whatToSay) {
   // your code here
+  var firstHalf = 'A wise ' + wiseType + ' once said: "' + String(whatToSay.charAt(0)).toUpperCase() + String(whatToSay).substring(1) + '".';
+  console.log(firstHalf);
 }
 
 
